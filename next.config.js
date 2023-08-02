@@ -32,8 +32,10 @@ const nextConfig = {  experimental: {
     remotePatterns: [],
     // when true, every image will be unoptimized
     unoptimized: false,
-  }}
-
+  },
+  trailingSlash: true,
+  output: 'export'
+}
 
    
   module.exports = nextConfig
